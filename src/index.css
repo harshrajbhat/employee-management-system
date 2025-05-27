@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+body{
+  background: #000
+}
+
+
+
+#tasklist {
+  overflow: auto; /* or scroll, depending on your needs */
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;     /* Firefox */
+}
+
+#tasklist::-webkit-scrollbar {
+  display: none;             /* Chrome, Safari, Opera */
+}
